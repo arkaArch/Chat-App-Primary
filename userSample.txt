@@ -1,0 +1,7 @@
+{
+    "username": "arka",
+    "fullname": "Arka Kar",
+    "password": "abcdefgh",
+    "confirm_password": "abcdefgh",
+    "gender": "male"
+}

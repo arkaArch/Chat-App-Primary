@@ -8,7 +8,7 @@ import generateToken from '../utils/generateTokens'
 const prisma = new PrismaClient()
 
 const Signup_Schema = z.object({
-    username: z.string().trim().toLowerCase(),
+    username: z.string().trim(),
     fullname: z.string().trim(),
     password: z.string().min(8),
     confirm_password: z.string().min(8),
